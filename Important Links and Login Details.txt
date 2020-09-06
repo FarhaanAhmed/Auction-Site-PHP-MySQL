@@ -1,0 +1,24 @@
+Database used is a mySQL database that is lniked to a WAMP server.
+
+ADMIN PANEL
+
+http://127.0.0.1/bid2win/admin/login/index.html
+
+Username: admin
+Paswword: pass123 
+
+MEMBER PANEL
+
+http://127.0.0.1/bid2win/index.php
+
+PHPMYADMIN
+
+http://127.0.0.1/phpmyadmin/
+
+PAYPAL SANDBOX ACCOUNTS
+
+Buyer Email: farhaan_ahmed-96-buyer@hotmail.co.uk
+Password: Sandbox123
+
+Merchant Email: farhaan_ahmed-96-facilitator@hotmail.co.uk
+Password: Sandbox123

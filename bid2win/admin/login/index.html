@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Idea</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+<body>
+<div class="main">
+<header class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-md-6">
+				<a href="#"><img src="images/logo.png" width="80"></a>
+			</div>
+			
+			<div class="col-sm-6 col-md-6">				
+				<a href="#" class="admin-an">Admin Login</a>
+			</div>			
+		</div>
+	</div>
+</header>
+
+<div class="login-form">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-md-offset-4">
+				<div class="account-wall">
+					<img class="profile-img" src="images/logo.jpg"alt="">
+					<form class="form-signin" method="post" action="login.php">
+					<div class="form-group">
+					<input type="text" class="form-control" placeholder="Username Email" required autofocus name="uuname">
+					</div>
+					<div class="form-group">
+					<input type="password" class="form-control" placeholder="Password" required name="upass">
+					</div>
+					<button class="btn sub-btn" type="submit">
+						Sign in</button>
+					<label class="checkbox pull-left">
+						<input type="checkbox" value="remember-me">
+						Keep me logged
+					</label>
+					<!--<a href="#" class="pull-right need-help">Lost your Password? </a>--><span class="clearfix"></span>
+					</form>
+				</div>
+				<!--<a href="#" class="text-center new-account">Create an account </a>-->
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
